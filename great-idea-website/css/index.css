@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+/*
 section, div, h1, img {
 	border: 2px solid red;
   }
@@ -125,3 +125,32 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+
+
+/*section {
+	margin: 20px;
+	padding: 20px;
+	border: solid 1px black;
+}
+div.col-2-item {
+	display: inline-block;
+	width: 48%;
+}
+
+div.col-2-item {
+	display: inline-block;
+	width: 47%;
+	margin: 1%;
+}
+*/
+header div, header nav, header img {
+	border: solid 1px black;
+	margin: 5px;
+	padding: 5px;
+}
+header nav {
+	display: inline-block;
+	width: 80%;
+	vertical-align: center;
+}
+
