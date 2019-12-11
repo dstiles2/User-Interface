@@ -64,29 +64,36 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/*
-section, div, h1, img {
-	border: 2px solid red;
-  }
-
 header {
 	height: 30%;
 }
 
-nav {
+header div, header nav, header img {
+	border: solid 1px black;
+	margin: 5px;
+	padding: 5px;
+}
+header nav {
+	display: inline-block;
+	width: 80%;
+	vertical-align: center;
+}
+/*nav {
 	display: inline-block;
 	width: 83%;
-}
+}*/
 
-nav a {
+/*nav a {
 	display: inline-block;
 	width: 15%;
 	text-align: center;
-}
+}*/
 
 .title_section {
 	display: inline-block;
 	width: 100%;
+	border: 1px solid black;
+	height: 60%;
 }
 .title_section h1 {
 	display: inline-block;
@@ -100,19 +107,35 @@ nav a {
 	display: inline-block;
 	;
 }
-.information .upper_info {
+
+.upper_information {
+	margin: 20px;
+	padding: 20px;
+	border: solid 1px black;
+}
+div.col-upper-container {
 	display: inline-block;
 	width: 100%;
 }
-.information .upper_info h5{
+div.col-sub-container {
 	display: inline-block;
-	width: 24%;
+	width: 47%;
+	margin: 1%;
 }
-.information #Features-container{
-	display: block;
-	width: 24%;
+.lower_information {
+	margin: 20px;
+	padding: 20px;
+	border: solid 1px black;
 }
-
+div.col-lower-container {
+	display: inline-block;
+	width: 100%;
+}
+div.col-sub2-container {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+}
 
 .middle-img {
 	display: inline-block;
@@ -127,30 +150,4 @@ footer {
 }
 
 
-/*section {
-	margin: 20px;
-	padding: 20px;
-	border: solid 1px black;
-}
-div.col-2-item {
-	display: inline-block;
-	width: 48%;
-}
-
-div.col-2-item {
-	display: inline-block;
-	width: 47%;
-	margin: 1%;
-}
-*/
-header div, header nav, header img {
-	border: solid 1px black;
-	margin: 5px;
-	padding: 5px;
-}
-header nav {
-	display: inline-block;
-	width: 80%;
-	vertical-align: center;
-}
 
