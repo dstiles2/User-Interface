@@ -65,7 +65,63 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+section, div, h1, img {
+	border: 2px solid red;
+  }
+
+header {
+	height: 30%;
+}
+
+nav {
+	display: inline-block;
+	width: 83%;
+}
+
 nav a {
 	display: inline-block;
-	width: 16%;
+	width: 15%;
+	text-align: center;
+}
+
+.title_section {
+	display: inline-block;
+	width: 100%;
+}
+.title_section h1 {
+	display: inline-block;
+	font-size: 60px;
+	width: 30%;
+	text-align: center;
+	box-sizing: content-box;
+	padding-bottom: 20%;
+}
+.title_section div {
+	display: inline-block;
+	;
+}
+.information .upper_info {
+	display: inline-block;
+	width: 100%;
+}
+.information .upper_info h5{
+	display: inline-block;
+	width: 24%;
+}
+.information #Features-container{
+	display: block;
+	width: 24%;
+}
+
+
+.middle-img {
+	display: inline-block;
+	width: 80%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
 }
