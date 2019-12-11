@@ -67,33 +67,33 @@ h1, h2, h3, h4, h5 {
 header {
 	height: 30%;
 }
+body {
+	margin: 2.5%;
+}
 
 header div, header nav, header img {
-	border: solid 1px black;
+	/*border: solid 1px black;*/
 	margin: 5px;
 	padding: 5px;
 }
+
 header nav {
 	display: inline-block;
-	width: 80%;
-	vertical-align: center;
-}
-/*nav {
-	display: inline-block;
 	width: 83%;
-}*/
+}
 
-/*nav a {
+header nav a {
 	display: inline-block;
 	width: 15%;
 	text-align: center;
-}*/
+	color: lightgray;
+}
 
 .title_section {
 	display: inline-block;
 	width: 100%;
-	border: 1px solid black;
-	height: 60%;
+	/*border: 1px solid black;*/
+	height: 0%;
 }
 .title_section h1 {
 	display: inline-block;
@@ -102,16 +102,18 @@ header nav {
 	text-align: center;
 	box-sizing: content-box;
 	padding-bottom: 20%;
+	margin-left: 100px;
 }
 .title_section div {
 	display: inline-block;
-	;
+	margin-left: 400px;
+	margin-bottom: 900px;
 }
 
 .upper_information {
 	margin: 20px;
 	padding: 20px;
-	border: solid 1px black;
+	/*border: solid 1px black;*/
 }
 div.col-upper-container {
 	display: inline-block;
@@ -125,7 +127,7 @@ div.col-sub-container {
 .lower_information {
 	margin: 20px;
 	padding: 20px;
-	border: solid 1px black;
+	/*border: solid 1px black;*/
 }
 div.col-lower-container {
 	display: inline-block;
@@ -138,10 +140,9 @@ div.col-sub2-container {
 }
 
 .middle-img {
-	display: inline-block;
-	width: 80%;
-	margin-left: 3%;
-	margin-right: 3%;
+	display: block;
+	width: 75%;
+	margin: 1% 10% 1% 10%;
 }
 
 footer {
