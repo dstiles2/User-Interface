@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header {
+	height: 30%;
+}
+body {
+	margin: 2.5%;
+}
+
+header div, header nav, header img {
+	/*border: solid 1px black;*/
+	margin: 5px;
+	padding: 5px;
+}
+
+header nav {
+	display: inline-block;
+	width: 83%;
+}
+
+header nav a {
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	color: lightgray;
+}
+
+.title_section {
+	display: inline-block;
+	width: 100%;
+	/*border: 1px solid black;*/
+	height: 0%;
+}
+.title_section h1 {
+	display: inline-block;
+	font-size: 60px;
+	width: 30%;
+	text-align: center;
+	box-sizing: content-box;
+	padding-bottom: 20%;
+	margin-left: 100px;
+}
+.title_section div {
+	display: inline-block;
+	margin-left: 400px;
+	margin-bottom: 900px;
+}
+
+.upper_information {
+	margin: 20px;
+	padding: 20px;
+	/*border: solid 1px black;*/
+}
+div.col-upper-container {
+	display: inline-block;
+	width: 100%;
+}
+div.col-sub-container {
+	display: inline-block;
+	width: 47%;
+	margin: 1%;
+}
+.lower_information {
+	margin: 20px;
+	padding: 20px;
+	/*border: solid 1px black;*/
+}
+div.col-lower-container {
+	display: inline-block;
+	width: 100%;
+}
+div.col-sub2-container {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+}
+
+.middle-img {
+	display: block;
+	width: 75%;
+	margin: 1% 10% 1% 10%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+}
+
+
+
